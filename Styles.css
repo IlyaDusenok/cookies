@@ -1,29 +1,31 @@
+@font-face {
+    font-family: "Gill Sans";
+    src: url(Fonts/GillSansC.woff2);
+}
+
 h1 {
     text-align: center;
     font-family: "Gill Sans";
     margin-bottom: 150px;
 }
-
-.charlotte {
-    background-color: rgba(45, 174, 216, 0.235);
+.recipe {
     width: 50vw;
     height: auto;
     padding: 40px 30px 20px 30px;
     border-style: solid solid dashed dashed;
-    border-color: rgba(3, 41, 53, 0.755);
     margin: 0 auto;
     font-size: 12px;
     margin-bottom: 150px;
     position: relative;
 }
+.charlotte {
+    background-color: rgba(45, 174, 216, 0.235);
+    border-color: rgba(3, 41, 53, 0.755);
+}
 
 .charlottePic {
-    position: absolute;
-    width: 20vw;
-    float: right;
     margin-left: 570px;
     margin-top: -150px;
-    border-style: solid;
     border-color: rgba(3, 41, 53, 0.755);
 }
 
@@ -45,25 +47,12 @@ h1 {
 
 .tiramisu {
     background-color: rgba(169, 169, 169, 0.18);
-    font-family: "Gill Sans";
-    width: 50vw;
-    height: auto;
-    padding: 40px 30px 20px 30px;
-    border-style: solid solid dashed dashed;
     border-color: rgba(58, 58, 58, 0.762);
-    margin: 0 auto;
-    font-size: 12px;
-    margin-bottom: 150px;
-    position: relative;
 }
 
 .tiramisuPic {
-    position: absolute;
-    width: 20vw;
-    float: right;
     margin-left: 560px;
     margin-top: -130px;
-    border-style: solid;
     border-color: rgba(58, 58, 58, 0.762);
 }
 
@@ -85,27 +74,19 @@ h1 {
 
 .cookie {
     background-color: rgba(143, 188, 143, 0.618);
-    font-size: 12px;
-    text-align: left;
-    margin: 0 auto;
-    font-family: Gill Sans, serif;
-    width: 50vw;
-    height: auto;
-    border: 3px;
-    border-style: solid solid dashed dashed;
     border-color: rgba(34, 74, 34, 0.831);
-    padding: 40px 30px 20px 30px;
-    margin-bottom: 150px;
-    position: relative;
 }
-
-.cookiePic {
+.pic {
     position: absolute;
     width: 20vw;
     float: right;
+    border-style: solid;
+}
+
+
+.cookiePic {
     margin-left: 560px;
     margin-top: -130px;
-    border-style: solid;
     border-color: rgba(34, 74, 34, 0.831);
 }
 
