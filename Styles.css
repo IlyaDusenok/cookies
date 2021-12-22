@@ -1,0 +1,131 @@
+h1 {
+    text-align: center;
+    font-family: "Gill Sans";
+    margin-bottom: 150px;
+}
+
+.charlotte {
+    background-color: rgba(45, 174, 216, 0.235);
+    width: 50vw;
+    height: auto;
+    padding: 40px 30px 20px 30px;
+    border-style: solid solid dashed dashed;
+    border-color: rgba(3, 41, 53, 0.755);
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.charlottePic {
+    position: absolute;
+    width: 20vw;
+    float: right;
+    margin-left: 570px;
+    margin-top: -150px;
+    border-style: solid;
+    border-color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotteH {
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotteDescription:first-letter {
+    font-size: 200%;
+    color: rgba(3, 41, 53, 0.755);
+}
+
+.charlotteList li:nth-child(even) {
+    color: rgba(3, 41, 53, 0.755);
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: rgba(3, 41, 53, 0.755);
+}
+
+.tiramisu {
+    background-color: rgba(169, 169, 169, 0.18);
+    font-family: "Gill Sans";
+    width: 50vw;
+    height: auto;
+    padding: 40px 30px 20px 30px;
+    border-style: solid solid dashed dashed;
+    border-color: rgba(58, 58, 58, 0.762);
+    margin: 0 auto;
+    font-size: 12px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.tiramisuPic {
+    position: absolute;
+    width: 20vw;
+    float: right;
+    margin-left: 560px;
+    margin-top: -130px;
+    border-style: solid;
+    border-color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisuH {
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisuDescription:first-letter {
+    font-size: 200%;
+    color: rgba(58, 58, 58, 0.762);
+}
+
+.tiramisuList li:nth-child(odd) {
+    color: rgba(58, 58, 58, 0.762);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgba(34, 74, 34, 0.831);
+}
+
+.cookie {
+    background-color: rgba(143, 188, 143, 0.618);
+    font-size: 12px;
+    text-align: left;
+    margin: 0 auto;
+    font-family: Gill Sans, serif;
+    width: 50vw;
+    height: auto;
+    border: 3px;
+    border-style: solid solid dashed dashed;
+    border-color: rgba(34, 74, 34, 0.831);
+    padding: 40px 30px 20px 30px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+.cookiePic {
+    position: absolute;
+    width: 20vw;
+    float: right;
+    margin-left: 560px;
+    margin-top: -130px;
+    border-style: solid;
+    border-color: rgba(34, 74, 34, 0.831);
+}
+
+.cookieH {
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.cookieDescription:first-letter {
+    font-size: 200%;
+    color: rgba(34, 74, 34, 0.831);
+}
+
+.cookieList li:nth-child(3n+2) {
+    color: rgba(34, 74, 34, 0.831);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: rgba(34, 74, 34, 0.831);
+}
+
+.recomendation {
+    font-style: italic;
+    text-align: center;
+}
